@@ -1,0 +1,29 @@
+clear : matlab clear와 똑같은 의미
+touch 00.txt : 파일 생성
+rm : remove
+git-scm.com
+git standalone installer  -> git 설치
+로그들을 저장하고 관리할 폴더를 우클릭 후 git bash 실행
+git init : git  시작?
+git status : commit할 준비가 되어있는 파일들 보여줌 -> .gitignore에 목록추가하면 무시가능
+git add 파일명 : commit 시킬 파일들을 장전(stage시킴)
+git config global ~~~ user.email
+git config global ~~~ user.name => 유저 정보 등록(commit전 필수사항)
+git commit -m "v0.1 first commit" : 로그 이름(v0.1 first commit)과 함께 로그를 남김	
+git add . (폴더 내에 있는 모든 파일들을 장전)
+git log : 로그 파일들 모두 보여준다
+git checkout 해시코드 : 해당 해시코드 로그버전으로 이동(폴더내 파일들 모두 바뀜)
+해시코드는 commit 뒤에있는 번호들을 의미
+git checkout - : 현재 로그버전 전에 있는 버전(변경전?)으로 이동
+git clone 주소 : 폴더 통째로 해당폴더에 내장
+git clone 주소 . : 폴더 안에있는 파일들 통째로 해당폴더에 내장
+git remote add origin https://github.com/h2031803/test.git : 해당 주소를 origin으로 여기겠다
+git branch -M main : master라고 되어있는 것을 main으로 바꾸겠다
+git push -u origin main : origin 주소에 main파일들을 업로드하겠다.
+git pull 명령어 
+
+복습주소
+https://aim-higher.notion.site/Python-1-b73c6dd7814d449c9411353ec815488e
+
+https://github.com/inhadeepblue/2024_KEB_bootcamp_python.git -> 수업파일들
+
